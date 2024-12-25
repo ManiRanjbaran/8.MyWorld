@@ -4,8 +4,8 @@ import PageNav from "../Components/PageNav";
 function Homepage() {
   return (
     <React.Fragment>
-      <h1>WorldWise</h1>
       <PageNav />
+      <h1>WorldWise</h1>
     </React.Fragment>
   );
 }
