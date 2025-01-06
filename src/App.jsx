@@ -16,6 +16,8 @@ export default function App() {
         <Route path="app" element={<AppLayout />} />
         <Route path="login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
+        {/*a route made for checking differences made*/}
+        <Route path="?" element={<PageNotFound />} />{" "}
       </Routes>
     </BrowserRouter>
   );
